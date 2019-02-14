@@ -34,7 +34,15 @@
 
   // Insert your own theme rules here
 
-    .v-grid-scroller-vertical::-webkit-scrollbar {
+	.v-grid-scroller-horizontal {
+		display: none;
+	}
+
+	.v-grid-horizontal-scrollbar-deco {
+		display: none;
+	}
+
+    .v-grid-scroller-vertical {
         display: none;
     }
 
